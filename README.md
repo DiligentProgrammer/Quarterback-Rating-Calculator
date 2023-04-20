@@ -13,7 +13,7 @@ touchdown_passes = int(input("Enter the amount of touchdown passes: "))
 percentage_touchdown_passes_per_attempt = ((touchdown_passes / passes_attempted) * 100) * .2
 print("The rating in the percentage of touchdown passes per attempt category is", percentage_touchdown_passes_per_attempt)
 interceptions = int(input("Enter the amount of interceptions: "))
-percentage_interceptions_per_attempt = 2.375 - (interceptions /                        passes_attempted) * (.25) * (100)
+percentage_interceptions_per_attempt = 2.375 - (interceptions / passes_attempted) * (.25) * (100)
 if percentage_interceptions_per_attempt >= 9.5:
   print("The rating in the percentage of interceptions per attempt category is zero")
 else:
