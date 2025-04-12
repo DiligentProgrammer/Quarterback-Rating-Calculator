@@ -3,8 +3,7 @@ This is a quarterback rating calculator, written in Python.
 
 passes_completed = int(input("Enter the amount of passes completed: "))
 passes_attempted = int(input("Enter the amount of passes attempted: "))
-percentage_completions_per_attempt = (
-  (passes_completed / passes_attempted) * 100 - 30) * .05
+percentage_completions_per_attempt = ((passes_completed / passes_attempted) * 100 - 30) * .05
 print("The rating in the percentage of completions per attempt category is", percentage_completions_per_attempt)
 passing_yards = int(input("Enter the amount of passing yards: "))
 yards_gained_per_attempt = (passing_yards / passes_attempted - 3) * .25
